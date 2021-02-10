@@ -147,3 +147,14 @@ iframe {
 .nolist {
     text-decoration: none;
 } 
+
+/* COPYRIGHT */
+
+.diseno {
+    background-color: #180E0B;
+    align-content: center;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color: #774535;
+}
