@@ -115,3 +115,35 @@ iframe {
     text-align: center;
 }
 
+/* CONTATO */
+
+.contato {
+    background-color: #261611;
+    color: #bc765f;
+    position: relative;
+    display: flex;
+    height: 250px;
+}
+
+.contatodiv {
+    font-size: 13px;
+}
+
+.contatodiv > header {
+    font-size: 27px;
+} 
+.contatodiv2 {
+    font-size: 13px;
+    display: flex;
+    flex-direction: column;
+    width: 33%;
+    text-align: center;
+}
+
+.contatodiv2 > header {
+    font-size: 27px;
+}
+
+.nolist {
+    text-decoration: none;
+} 
