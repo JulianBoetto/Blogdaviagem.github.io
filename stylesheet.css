@@ -4,8 +4,7 @@
 }
 
 body {
-    margin: 0px;
-	padding: 0px;
+    
 	background: white;
 	font-family: 'Raleway', sans-serif;
 	font-size: 11pt;
@@ -13,25 +12,79 @@ body {
 }
 /* HEADER */
 
+@media (max-width: 768px) {
+    .logo {
+        width: 45px;
+        margin-left: 0px;
+    }
+    
+    .navegar > a {
+        font-size: 10px;
+    }
+
+    .destinos > article > img {
+        width: 50px;
+    }
+
+    .lista > li > img {
+        width: 35px;
+        height: 35px;
+    }
+        
+    .lista > li > p {
+        font-size: 8px;
+    }
+
+    #Sobre {
+        height: 100px;
+    }
+
+    .divsobre2 > section > img {
+        width: 80px;
+        height: 80px;
+        
+    }
+
+    .divsobre2 > section > p {
+        font-size: 1px;
+    }
+
+    .contatodiv2 > header > h3 {
+        font-size: 15px;
+    }
+
+    #Contato > h3 {
+        font-size: 15px;
+    }
+
+    .contatodiv > p {
+        font-size: 8px;
+    }
+    
+    .diseno {
+        font-size: 10px;
+    }
+}
+
 #Home {
     background-color: #180E0B;
     height: 70px;
     display: flex;
     justify-content: space-between;
-    
+    align-items: center;
+    width: 100%;
 }
 
 .logo {
     width: 60px;
     position: relative;
     margin-left: 50px;
-    margin-top: 4px;
 }
+
 
 .navegar {
     position: relative;
     display: inline;
-    top: 25px;
     right: 5px;
     font-weight: 200; 
     font-size: 18px;
@@ -122,11 +175,12 @@ iframe {
     color: #bc765f;
     position: relative;
     display: flex;
-    height: 250px;
+    height: 100px;
 }
 
 .contatodiv {
     font-size: 13px;
+    width: 75%;
 }
 
 .contatodiv > header {
@@ -144,8 +198,8 @@ iframe {
     font-size: 27px;
 }
 
-.nolist {
-    text-decoration: none;
+.nolist > li  {
+    outline: none;
 } 
 
 /* COPYRIGHT */
