@@ -4,8 +4,7 @@
 }
 
 body {
-    margin: 0px;
-	padding: 0px;
+    
 	background: white;
 	font-family: 'Raleway', sans-serif;
 	font-size: 11pt;
@@ -13,26 +12,88 @@ body {
 }
 /* HEADER */
 
-#Home {
-    background-color: #180E0B;
-    height: 70px;
-    display: flex;
-    justify-content: space-between;
+@media (max-width: 768px) {
+        
+    .navegar > a {
+        font-size: 10px;
+    }
+
+    #destinos > article > img {
+        width: 50px;
+        height: 80px;
+    }
+    
+    #destinos {
+        height: 100px;
+    }
+
+    .articulos {
+        display: flex;
+        align-items: center;
+    }
+   
+    .lista > li > img {
+        width: 35px;
+        height: 35px;
+    }
+        
+    .lista > li > p {
+        font-size: 8px;
+    }
+
+    .divsobre2 > section > img {
+        width: 80px;
+        height: 80px;
+        
+    }
+
+    .divsobre2 > section > p {
+        font-size: 1px;
+    }
+
+    .contatodiv2 > header > h3 {
+        font-size: 15px;
+    }
+
+    #Contato > h3 {
+        font-size: 15px;
+    }
+
+    .contatodiv > p {
+        font-size: 8px;
+    }
+    
+    .diseno {
+        font-size: 10px;
+    }
+
     
 }
 
-.logo {
-    width: 60px;
+#Home {
+    background-color: #180E0B;
+    height: 60px;
     position: relative;
-    margin-left: 50px;
-    margin-top: 4px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
 }
+
+.logo {
+    position: absolute;
+    font-family: 'Segoe UI', sans-serif;
+    font-size: 20pt;
+    color: white;
+    left: 36pt;
+    top: 12pt;
+}
+
 
 .navegar {
     position: relative;
     display: inline;
-    top: 25px;
-    right: 5px;
+    top: 13pt;
+    right: 10pt;
     font-weight: 200; 
     font-size: 18px;
 }
@@ -47,19 +108,19 @@ a {
 #destino {
     background: #56c9d6;
 	border-radius: 5px;
-	
+
 }
 
 /* VIDEO HEADER */
 
 iframe {
     width: 100%;
-    height: 750px;
+    height: 134pt;
 }
 
 /* DESTINOS */
 
-.destinos {
+#destinos {
     background-color: white;
     font-size: 35px;
     font-weight: bold;
@@ -70,7 +131,7 @@ iframe {
     align-items: center;
 }
 
-.destinos > article {
+#destinos > article {
     height: 350px;
     width: 250px;
     display: flex;
@@ -78,16 +139,18 @@ iframe {
     position: relative;
 }
 
-.destinos > article > h3 {
+#destinos > article > h3 {
     text-align: center;
     font-size: 27px;
     margin-top: 25px;
     margin-bottom: 25px;
 }
 
-.destinos > article > p {
+#destinos > article > p {
     font-size: 15px;
-    }
+}
+
+
 
 /* SOBRE NOS*/
 
@@ -122,11 +185,12 @@ iframe {
     color: #bc765f;
     position: relative;
     display: flex;
-    height: 250px;
+    height: 100px;
 }
 
 .contatodiv {
     font-size: 13px;
+    width: 75%;
 }
 
 .contatodiv > header {
@@ -144,8 +208,8 @@ iframe {
     font-size: 27px;
 }
 
-.nolist {
-    text-decoration: none;
+.nolist > li  {
+    outline: none;
 } 
 
 /* COPYRIGHT */
