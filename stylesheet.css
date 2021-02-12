@@ -22,10 +22,20 @@ body {
         font-size: 10px;
     }
 
-    .destinos > article > img {
+    #destinos > article > img {
         width: 50px;
+        height: 80px;
+    }
+    
+    #destinos {
+        height: 100px;
     }
 
+    .articulos {
+        display: flex;
+        align-items: center;
+    }
+   
     .lista > li > img {
         width: 35px;
         height: 35px;
@@ -33,10 +43,6 @@ body {
         
     .lista > li > p {
         font-size: 8px;
-    }
-
-    #Sobre {
-        height: 100px;
     }
 
     .divsobre2 > section > img {
@@ -64,6 +70,8 @@ body {
     .diseno {
         font-size: 10px;
     }
+
+    
 }
 
 #Home {
@@ -100,7 +108,7 @@ a {
 #destino {
     background: #56c9d6;
 	border-radius: 5px;
-	
+
 }
 
 /* VIDEO HEADER */
@@ -112,7 +120,7 @@ iframe {
 
 /* DESTINOS */
 
-.destinos {
+#destinos {
     background-color: white;
     font-size: 35px;
     font-weight: bold;
@@ -123,7 +131,7 @@ iframe {
     align-items: center;
 }
 
-.destinos > article {
+#destinos > article {
     height: 350px;
     width: 250px;
     display: flex;
@@ -131,16 +139,18 @@ iframe {
     position: relative;
 }
 
-.destinos > article > h3 {
+#destinos > article > h3 {
     text-align: center;
     font-size: 27px;
     margin-top: 25px;
     margin-bottom: 25px;
 }
 
-.destinos > article > p {
+#destinos > article > p {
     font-size: 15px;
-    }
+}
+
+
 
 /* SOBRE NOS*/
 
